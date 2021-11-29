@@ -13,7 +13,8 @@ const Aboutme = () => {
         <Col sm={12} md={6} className="my-auto">
         <h5 className="text-light my-3">Name : <span className="text-danger ms-2">Mridul sheikh</span></h5>
         <h5 className="text-light my-3">Age :<span className="text-danger ms-2">19</span> </h5>
-        <h5 className="text-light my-3">Language : <span className="text-danger ms-2">Bangladesh</span></h5>
+        <h5 className="text-light my-3">Language : <span className="text-danger ms-2">Bangla</span></h5>
+        <h5 className="text-light my-3">Religion : <span className="text-danger ms-2">Bangla</span></h5>
         <h5 className="text-light my-3">Position : <span className="text-danger ms-2">student</span></h5>
         <p className="text-light mt-5">
        <span className="fs-4 text-danger me-1">Mridul sheikh</span> is a student of class 12 in sreenagar govt. collage. He lives in Munshiganj district and Dhaka division in Bangladesh. Currently, his most preferred language is JavaScript. Apart from that, he has done demo projects with React, MongoDB, Express, Bootstrap, firebase. He is currently trying to get an internship at the company. The main purpose is to work with web-programming technology And improve her skills.
