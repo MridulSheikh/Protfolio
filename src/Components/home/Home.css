@@ -1,0 +1,19 @@
+.home {
+    background: linear-gradient(121deg, rgba(0, 0, 0, 0.5326505602240896) 0%, rgba(0, 2, 8, 0.40940126050420167) 100%), url("./../../images/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-box {
+    /* text-align: center; */
+    color: #fff;
+    border-left: 3px solid red;
+}
+
+.home-box h1 {
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
