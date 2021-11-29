@@ -1,5 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import Perticle from '../../config/Perticle';
+import Skill from '../Skill/Skill';
 import img from "./../../images/ppy.jpg"
 const Aboutme = () => {
     return (
@@ -22,6 +24,7 @@ const Aboutme = () => {
         </Col>
         </Row>
         </Container>
+        <Skill></Skill>
        </div>
     );
 };
