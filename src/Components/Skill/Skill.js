@@ -4,14 +4,14 @@ const Skill = () => {
     return (
         <Container className="text-light pt-5">
         <h1 className="text-light text-center mt-5">My <span className="text-danger">Skill</span></h1>
-          <Row className="mt-5">
-          <Col sm={12} md={6} className="mt-5">
-         <ul style={{listStyle: "revert"}}>
-         <li className="fs-3 my-2">Node.js</li>
-         <li className="fs-3 my-2">Express</li>
-         <li className="fs-3 my-2">Mongodb</li>
-         <li className="fs-3 my-2">Bootstrap</li>
-         <li className="fs-3 my-2">React</li>
+          <Row className="mt-5 rounded">
+          <Col sm={12} md={6} className="mt-0">
+         <ul style={{listStyle:"none"}}> 
+         <li className="fs-1 my-2"><i className="fab fa-node-js me-2 text-success"></i>Node.js</li>
+         <li className="fs-1 my-2"><i className="fab fa-node-js me-2 text-danger"></i>Express</li>
+         <li className="fs-1 my-2"><i class="fab fa-envira me-2 text-success"></i>Mongodb</li>
+         <li className="fs-1 my-2"><i className="fas fa-bold me-2" style={{color:"#ff00ff"}}></i>Bootstrap</li>
+         <li className="fs-1 my-2"><i className="fab fa-react me-2 text-info"></i>React</li>
          </ul>
           </Col>
           <Col sm={12} md={6}>

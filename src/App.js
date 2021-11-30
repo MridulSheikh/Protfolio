@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/home/Home';
 import Aboutme from './Components/About me/Aboutme';
 import Perticle from './config/Perticle';
+import Contect from './Components/contect/Contect';
 
 
 function App() {
@@ -20,8 +21,8 @@ function App() {
        <Route  path="/About">
          <Aboutme></Aboutme>
        </Route>
-       <Route  path="/skill">
-         <Aboutme></Aboutme>
+       <Route  path="/contect">
+        <Contect></Contect>
        </Route>
        </Switch>
        </BrowserRouter>
