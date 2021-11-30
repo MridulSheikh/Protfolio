@@ -2,17 +2,27 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 const Skill = () => {
     return (
-        <Container className="text-light pt-5">
-        <h1 className="text-light text-center mt-5">My <span className="text-danger">Skill</span></h1>
+        <Container className="text-pght pt-5">
+        <h1 className="text-pght text-center mt-5">My <span className="text-danger">Skill</span></h1>
           <Row className="mt-5 rounded">
-          <Col sm={12} md={6} className="mt-0">
-         <ul style={{listStyle:"none"}}> 
-         <li className="fs-1 my-2"><i className="fab fa-node-js me-2 text-success"></i>Node.js</li>
-         <li className="fs-1 my-2"><i className="fab fa-node-js me-2 text-danger"></i>Express</li>
-         <li className="fs-1 my-2"><i class="fab fa-envira me-2 text-success"></i>Mongodb</li>
-         <li className="fs-1 my-2"><i className="fas fa-bold me-2" style={{color:"#ff00ff"}}></i>Bootstrap</li>
-         <li className="fs-1 my-2"><i className="fab fa-react me-2 text-info"></i>React</li>
-         </ul>
+          <Col sm={12} md={6} className="mt-0 text-light">
+          <Row>
+          <Col sm={12} md={6}>
+          <p className="fs-1 my-2"><i className="fab fa-node-js me-2 text-success"></i>Node.js</p>
+          </Col>
+          <Col  sm={12} md={6}>
+          <p className="fs-1 my-2"><i className="fab fa-node-js me-2 text-danger"></i>Express</p>
+          </Col>
+          <Col  sm={12} md={6}>
+          <p className="fs-1 my-2"><i class="fab fa-envira me-2 text-success"></i>Mongodb</p>
+          </Col>
+          <Col  sm={12} md={6}>
+          <p className="fs-1 my-2"><i className="fas fa-bold me-2" style={{color:"#ff00ff"}}></i>Bootstrap</p>
+          </Col>
+          <Col  sm={12} md={6}>
+          <p className="fs-1 my-2"><i className="fab fa-react me-2 text-info"></i>React</p>
+          </Col>
+          </Row>
           </Col>
           <Col sm={12} md={6}>
           <div className="d-flex text-center my-5">
